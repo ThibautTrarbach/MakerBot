@@ -1,0 +1,14 @@
+{
+  "defaultActivity":"loading...",
+  "bot_token":"TokenBot",
+  "welecom_roles":[
+    "id",
+    "id",
+    "id"
+  ],
+  "welecom_channel": "id",
+  "roles_menu": {
+    "Nom1":"id1",
+    "Nom2":"Id2"
+  }
+}

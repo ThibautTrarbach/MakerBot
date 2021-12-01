@@ -1,0 +1,13 @@
+{
+    "msgBienvenue": "Hey ! :mention, bienvenu(e) sur **Maker Cesi** ! Les membres t’accueillerons comme il se doit. Si tu veux avoir accès au différents salon, il suffit de lire le règlement et n'oublie pas de te présenter dans le salon présentations",
+    "noRight": "Vous n'avez pas les droits pour effectuer cette action",
+    "roleEmbedMenu": "Pour avoir accès aux roles du serveur, merci de cliquer sur le bouton ci-dessous",
+    "roleEmbedMenuButton": "Ouvrir le menu des rôles",
+    "settingSave": "La configuration a bien été enregistrée",
+    "musicADDPiste" : "Ajout d'une piste a votre liste de lecture",
+    "menuRolePlaceHolder" : "Choisir vos roles",
+    "menuRoleText": "Quelles catégories voulez-vous voir ?",
+    "menuRoleUpdate": "Vos accès ont bien été mis à jour",
+    "musicConChannel": "Vous devez être connecté à un salon vocal.",
+     "menuHelpPlaceHolder": "Sélection du sujet"
+}

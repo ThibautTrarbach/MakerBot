@@ -26,7 +26,7 @@ public class OnGuildMemberJoin extends ListenerAdapter {
     }
 
     private void addRoles(GuildMemberJoinEvent event) {
-        JSONArray welecomRole = main.CONFIGURATION.getJSONArray("roles");
+        JSONArray welecomRole = main.CONFIGURATION.getJSONArray("welecom_roles");
 
         welecomRole.forEach(data -> {
             String roleID = (String) data;
@@ -37,7 +37,7 @@ public class OnGuildMemberJoin extends ListenerAdapter {
 
     private void sendMessage(GuildMemberJoinEvent event) {
 
-        String channelID = Main.CONFIGURATION.getString("channel_welecom", "false");
+        String channelID = Main.CONFIGURATION.getString("welecom_channel", "false");
 
         TextChannel textChannel = event.getGuild().getTextChannelById(channelID);
 

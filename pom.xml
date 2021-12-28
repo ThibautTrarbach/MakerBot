@@ -35,7 +35,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>fr.trarbach.dumbo.Main</mainClass>
+                            <mainClass>fr.cesi.maker.bot.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -58,7 +58,7 @@
                                 <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                                 <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                                 <addClasspath>true</addClasspath>
-                                <mainClass>fr.trarbach.dumbo.Main</mainClass>
+                                <mainClass>fr.cesi.maker.bot.Main</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
@@ -97,7 +97,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.7</version>
+            <version>1.2.9</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -108,6 +108,10 @@
     </dependencies>
 
     <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
         <repository>
             <id>dv8tion</id>
             <name>m2-dv8tion</name>

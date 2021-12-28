@@ -10,5 +10,7 @@
     "menuRoleUpdate": "Vos accès ont bien été mis à jour",
     "musicConChannel": "Vous devez être connecté à un salon vocal.",
     "menuHelpPlaceHolder": "Sélection du sujet",
-    "MusicVolumeDe": "Le volume est de "
+    "MusicVolumeDe": "Le volume est de ",
+    "MusicPauseStart": "Changement de l'état de lecture de votre music",
+    "MusicSkip": "Passage a la piste suivante"
 }
